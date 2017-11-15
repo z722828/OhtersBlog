@@ -11,11 +11,11 @@ import java.util.Set;
  * 项目的一些常量
  */
 @Component
-public class WebConstant {
+public class WebConst {
 
     /**
-    存储安装信息的配置文件名称
-    */
+     存储安装信息的配置文件名称
+     */
     public static final String INSTALL_FILE_CONF = "install.lock";
 
     public static Map<String, String> initConfig = new HashMap<>();
