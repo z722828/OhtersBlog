@@ -14,4 +14,18 @@ public class CommentBo extends CommentVo {
     private int levels;
 
     private List<CommentVo> children;
+
+    public CommentBo(CommentVo comments) {
+        setAuthor(comments.getAuthor());
+        setMail(comments.getMail());
+        setCoid(comments.getCoid());
+        setAuthorId(comments.getAuthorId());
+        setUrl(comments.getUrl());
+        setCreated(comments.getCreated());
+        setAgent(comments.getAgent());
+        setIp(comments.getIp());
+        setContent(comments.getContent());
+        setOwnerId(comments.getOwnerId());
+        setCid(comments.getCid());
+    }
 }
